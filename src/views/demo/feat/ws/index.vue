@@ -9,7 +9,7 @@
         <hr class="my-4" />
 
         <div class="flex">
-          <a-input v-model:value="server" disabled>
+          <a-input v-model:value="server">
             <template #addonBefore> 服务地址 </template>
           </a-input>
           <a-button :type="getIsOpen ? 'danger' : 'primary'" @click="toggle">
